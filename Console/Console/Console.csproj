@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Authors>Meyer</Authors>
+    <Description>Console application extensions</Description>
+    <Copyright>Copyright 2019</Copyright>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>1.0.0.0</Version>
+    <PackageVersion>1.0.0.0</PackageVersion>
+    <AssemblyName>Meyer.Common.Console</AssemblyName>
+    <RootNamespace>Meyer.Common.Console</RootNamespace>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard2.0\Meyer.Common.Console.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
